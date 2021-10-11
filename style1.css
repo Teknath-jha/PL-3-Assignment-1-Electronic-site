@@ -1,0 +1,44 @@
+
+header{
+    float: left;
+    margin-top: 0px;
+    margin-left: 20px;
+}
+nav{
+    margin: 50px;
+    float: left;
+}
+nav > a {
+    padding: 10px;
+}
+img{
+    width: 40%;
+    height: 40%;
+}
+aside{
+    float: right;
+    width: 30%;
+    margin-right: 0px;
+   
+}
+article>article{
+    width: 70%;
+    margin-left:20px;
+}
+article>img{
+    margin: auto;
+    margin-left: 25%;
+}
+a>img{
+    width: 100%;
+    height: 40%;
+}
+h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 3em;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+#contact{
+    margin-left: 10px;
+}
