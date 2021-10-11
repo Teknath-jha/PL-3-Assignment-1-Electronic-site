@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binary to Decimal </title>
+</head>
+<body>
+    <header id="header">
+        <h1>Convert Binary to decimal number </h1>
+    </header>
+
+    <nav>
+        <a href="#code">View Code</a>
+        <a href="#contact" style="margin: 10px;">Auther Details</a>
+    </nav>
+    <hr>
+    <section>
+        <h3>Problem Statement:</h2>
+        <h4>Write a code in any programming language that convert binary number into decimal number.</h4>
+        
+        <article>
+        <h3>Sample Input:</h3>
+        <p><code>Binary Number = 1010</code></p>
+
+        <h3>Sample Output:</h3>
+        <p><samp>In decimal = 10</samp></p>
+        </article>
+        <hr>
+        <h3 id="code">Code in c++</h3>
+        <p>Press <kbd>Ctrl</kbd> + <kbd>C</kbd> to <s>copy</s>  code (Windows).<br>
+
+            Press <kbd>Cmd</kbd> + <kbd>C</kbd> to <s>copy</s> code (Mac OS).</p>
+        <pre>
+            <code>#include &ltiostream&gt</code>
+            <code>using namespace std;</code> 
+
+            <code>int main(){</code> 
+                <code>int <var>Number;</var> </code> 
+                <code>cin>>Number;</code>
+                <code>int <var>dec</var>  = 0;</code> 
+                <code>int <var>i</var>  = 0;</code> 
+                <code>int <var>rem</var>  = 0;</code> 
+
+                <code>while(Number>0){</code> 
+                   <code>rem = n % 10;</code> 
+                   <code>n /= 10;</code> 
+                   <code>dec += rem * pow(2, i);</code> 
+                   <code> ++i;</code> 
+                <code>}</code> 
+
+                <code>cout&lt&lt"Total digits in number = "&lt&lt totalDigits;</code> 
+                <code> return 0;</code>
+            <code>}</code>
+            
+        </pre>
+
+        <h3>algorithm</h3>
+        <p>
+            After each iteration the number gets shift to the right<br>and that digin get added to dec by 
+            2<sup>dec</sup>
+        </p>
+
+        <h3>Complexity</h3>
+        <p>Time Complexity: O(N) where N is digits present in number</p>
+        <hr>
+        
+        </pre>
+        <h3>Reference: </h3>
+        <p>Geeksforgeeks</p>
+        <a href="https://www.programiz.com/cpp-programming/examples/binary-decimal-convert"> Click to see more algorithms</a>
+        
+        <hr>
+        <br>
+        <nav>
+            <a href="#header"><small>Move to top</small></a>
+        </nav>
+        
+        
+
+    </section>
+        <footer>
+            <address id="contact">
+                <p><strong>Contact Details:</strong>
+                    Auther <em>Teknath Jha+
+
+                    </em>  <a href="mailto:teknath.jha@walchandsangli.ac.in">Click to Mail Me</a>
+                </p>
+            </address>
+        </footer>
+</body>
+</html>
